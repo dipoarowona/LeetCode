@@ -2,6 +2,7 @@ class ListNode():
     def __init__(self, val=0, next=None):
         self.val = val
         self.next = next
+
 class Solution():
     def __init__(self):
         self.head = None
@@ -47,6 +48,7 @@ class Solution():
             decimal = decimal + temp
             current = current.next
         return decimal
+    
     def getDecimalValue2(self):
         curr_node = self.head
         string = ""
